@@ -1,0 +1,64 @@
+body {
+    background-image: url(../images/depositphotos_49204805-stock-illustration-science-background.jpg)
+}
+
+#wraper {
+    margin-top: 2rem;
+}
+
+div {
+    text-align: center;
+}
+
+#main {
+    background: rgba(88, 190, 199, 0.9);
+    height: 30rem;
+    border-radius: 20px;
+}
+
+.letters {
+    color: #FFA500;
+}
+
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+#head {
+    background: rgba(88, 190, 199, 0.9);
+    border-radius: 20px;
+    height: 4rem;
+}
+
+.item {
+    width: 70%;
+    height: 10%;
+    background-color: rgba(61, 113, 81, 0.2);
+    margin: 1rem auto 1rem auto;
+    font-size: 1.5rem;
+    color: #00008B;
+}
+
+#answer {
+    color: #DC143C;
+}
+
+img {
+    width: 12rem;
+}
