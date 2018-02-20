@@ -122,7 +122,7 @@ $(document).ready(function() {
             $(".item").empty();
             $("#answer").empty();
             $("#pic").empty();
-            $("#timer").empty();
+            $("#timer").css("width", "0%").attr("area-valuenow", "0").text("");
             $("#answer").append("<h3> Correct: " + game.corectAns + "</h3>");
             $("#answer").append("<h3> Incorrect: " + game.incorAns + "</h3>");
             $("#answer").append("<h3> Unanswered: " + game.unAswered + "</h3>");
